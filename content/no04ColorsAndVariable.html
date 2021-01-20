@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Home - Colors and Variables Site</title>
+    <meta
+      name="description"
+      content="Hello! This Web is Practice Site Content is Colors and Varible"
+    />
+    <meta charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <style>
+      :root {
+        --main-color: #fc0000;
+        --default-border: 1px solid var(--main-color);
+      }
+      body {
+        height: 100vh;
+        margin: 50px;
+      }
+      #first {
+        /*16진수 컬러 설정*/
+        background-color: #fcce00;
+      }
+
+      #second {
+        /*RGB로 컬러 설정*/
+        background-color: rgb(152, 206, 0);
+      }
+
+      #third {
+        /*RGB로 컬러 설정 + Opacity(투명도 설정가능 1~0 ex: 0.5 : 50% )*/
+        background-color: rgba(252, 206, 0, 0.1);
+      }
+
+      #varTestFirst {
+        color: var(--main-color);
+        border: var(--default-border);
+      }
+
+      #varTestSecond {
+        color: var(--main-color);
+        border: var(--default-border);
+      }
+    </style>
+  </head>
+  <body>
+    <p id="first">
+      This attribute names a relationship of the linked document to the current
+    </p>
+    <p id="second">
+      document. The attribute must be a space-separated list of the link types
+    </p>
+    <p id="third">values.</p>
+    <div>
+      <a id="varTestFirst" href="#">website</a>
+      <a id="varTestSecond" href="#">website</a>
+    </div>
+  </body>
+</html>

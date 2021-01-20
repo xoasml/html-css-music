@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Home - Recap site</title>
+    <meta name="author" content="Choc Kim" />
+    <meta name="description" content="This is CSS Recap Site" />
+    <meta charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <style>
+      body {
+        height: 100vh;
+        margin: 50px;
+      }
+      /* placeholder의 sytle에 효과를 줌 */
+      input::placeholder {
+        color: yellowgreen;
+      }
+      /* 마우스 드레그 했을때의 효과 */
+      p::selection {
+        color: white;
+        background-color: yellowgreen;
+      }
+      /* 첫번째 글짜에 효과를 입힘 */
+      p::first-letter {
+        font-weight: bold;
+        color: yellowgreen;
+        background-color: tomato;
+        font-size: 30px;
+      }
+      /* 첫째줄에 효과를 입힘 */
+      p::first-line {
+        font-weight: bold;
+        color: yellowgreen;
+        background-color: tomato;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="name" />
+      <p>
+        The input element represents a typed data field, usually with a form
+        control to allow the user to edit the data.
+      </p>
+    </form>
+  </body>
+</html>
