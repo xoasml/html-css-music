@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>GGuGGu Times - Animations</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Hello! This is Animations Practice WebSite"
+    />
+    <link rel="shortcut icon" href="img/iLoveYouGGuGGu.gif" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      @keyframes GuuGuu {
+        /* from 부터 */
+        /* from {
+          transform: rotateY(0deg);
+        } */
+        /* to 까지 */
+        /* to {
+          transform: rotateY(180deg) translateX(100px);
+        } */
+
+        0% {
+          transform: rotateY(0deg);
+        }
+        25% {
+          transform: scale(2);
+        }
+        50% {
+          transform: rotateY(180deg) translateY(100px);
+          border-radius: 0px;
+          border-color: tomato;
+          opacity: 0;
+        }
+        75% {
+          transform: scale(5);
+          border-radius: 20;
+        }
+        100% {
+          transform: rotateY(0deg);
+        }
+      }
+      img {
+        border: 10px solid black;
+        border-radius: 50%;
+        animation: GuuGuu 5s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="img/iLoveYouGGuGGu.gif" />
+  </body>
+</html>

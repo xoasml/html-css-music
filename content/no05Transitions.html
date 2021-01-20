@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Home - Transitions</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Hello! This is Transition Practice WebSite"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <style>
+      a {
+        color: wheat;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 55px;
+
+        /* 각각의 속성에 각기 다른 transition을 추가 하는 방법 */
+        /* transition: background-color 10s ease-in-out, color 5s ease-in-out;*/
+
+        /* 모든 속성에 한번에 같은 transistion을 추가하는 방법 */
+        /* transition: all 1s linear; */
+
+        /* transition 속성을 cubic-bezier로 커스텀도 가능하다 */
+        transition: all 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86); /* easeInOutCirc */
+      }
+
+      a:hover {
+        border-radius: 20px;
+        color: tomato;
+        background-color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Go home</a>
+  </body>
+</html>

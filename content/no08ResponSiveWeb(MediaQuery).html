@@ -1,0 +1,51 @@
+<!-- Media Query?? (반응형 웹을 위한 첫 단계)
+     미디아 쿼리는 오직 CSS만을
+
+     웹사이트를 보고 있는 사용자의 스크린 사이즈를
+
+     알 수 있는 방법이다.
+-->
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Hello! This is Media Queiry Practice WebSite"
+    />
+
+    <link rel="shortcut icon" href="img/usingPhoneGGuGGu.jpg" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+      @media screen and (min-width: 600px) {
+        div {
+          background-color: tomato;
+        }
+      }
+      @media screen and (min-width: 800px) {
+        div {
+          background-color: wheat;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        div {
+          background-color: turquoise;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

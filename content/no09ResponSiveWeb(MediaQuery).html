@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Hello! This is Practice ResponSive WebSite👍"
+    />
+    <link name="shortcut icon" href="img/usingPhoneGGuGGu.jpg" />
+    <!-- <link name="stylesheet" href="styles.css" /> -->
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: teal;
+      }
+      /* orientation: portrait 속성은 핸드폰이 세로 모드 일 때의 조건*/
+      /* orientation: landscape 속성은 핸드폰이 가로 모드 일 때의 조건 */
+      @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: portrait) {
+        div {
+          background-color: wheat;
+        }
+      }
+
+      span {
+        font-size: 36px;
+      }
+      @media screen and (orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+      @media print {
+        body {
+          background-color: tomato;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <span>Please flip your phone :(</span>
+  </body>
+</html>

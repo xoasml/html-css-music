@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>GGuGGu Times - Transformations</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Hello! This is Transformations Practice WebSite!"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://lh3.googleusercontent.com/ogw/ADGmqu9NY5AoCF5jeMz2CVXJY16_rvr0W7pwF7nCvgD-Ig=s83-c-mo"
+    />
+
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        border: 10px solid black;
+        border-radius: 50%;
+        /* ratate : 축을 기준으로 @deg만큼 회전시킨다 */
+        /* transform: rotateY(85deg) rotateX(20deg) rotateZ(30deg); */
+        /* scale : 축을 기준으로 @배 만큼 크기를 키운다. */
+        /* transform: scaleX(2); */
+        /* translate : 엘레먼트를 선택한 축으로 @px 만큼 이동 시킨다.*/
+        /* transform: translateX(100px); */
+        transition: transform 2000ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      }
+
+      img:hover {
+        transform: rotateY(360deg) scale(0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <img src="img/iLoveYouGGuGGu.gif" />
+  </body>
+</html>
