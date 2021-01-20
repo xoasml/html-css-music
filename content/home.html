@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Home - My first ebsite.</title>
+    <meta name="description" content="This is my website" />
+    <meta charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <!-- html과 css를 분리 시킨다.
+      <link href="styles.css" rel="stylesheet" /> -->
+    <!--  html과 css를 한 파일에 다 작성한다 -->
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      input {
+        border: 1px solid wheat;
+      }
+
+      input:required {
+        border-color: tomato;
+      }
+
+      input[placeholder~="name"] {
+        background-color: thistle;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="password" required placeholder="password" />
+      </form>
+    </div>
+  </body>
+</html>
