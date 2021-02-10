@@ -1,0 +1,47 @@
+.content__playlist-frame {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.content__playlist-frame-icon {
+  width: 65px;
+  height: 65px;
+  border: var(--main-boder);
+  border-radius: var(--main-radius);
+}
+
+.bgcolor-red {
+  background-color: #f85a2a;
+}
+
+.bgcolor-pink {
+  background-color: #ff89bb;
+}
+
+.bgcolor-blue {
+  background-color: #1847e5;
+}
+
+.bgcolor-green {
+  background-color: #00c6ad;
+}
+
+.content__playlist-frame-info {
+  margin-left: 14px;
+  width: 280px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content__playlist-frame-name {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.content__playlist-frame-artist {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}

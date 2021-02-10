@@ -1,0 +1,17 @@
+.content__top {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.content__top i {
+  position: absolute;
+  left: 0px;
+}
+
+.content__top span {
+  font-weight: 800;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&display=swap");
+@import url(reset.css);
+@import url(top.css);
+@import url(album.css);
+@import url(button.css);
+@import url(playlist.css);
+
+:root {
+  --main-radius: 20px;
+  --main-boder: 2px solid black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contnet__main {
+  border: 3px solid #00c6ad;
+  width: 400px;
+  height: 875px;
+  padding: 75px 25px 0px 25px;
+}

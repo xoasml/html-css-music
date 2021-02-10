@@ -1,0 +1,40 @@
+.content__album {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.content__album-icon {
+  width: 145px;
+  height: 145px;
+  border: var(--main-boder);
+  border-radius: var(--main-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffbd11;
+  color: white;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+/* Random Love by Divay kapoor를 가지고 있는 div */
+.content__album-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px; /* 넓이 */
+  height: 120px; /* 높이 */
+}
+/* Random Love */
+.content__album-info-name {
+  font-size: 45px;
+  font-weight: 800;
+  padding-left: 1px;
+  margin-bottom: 20px;
+}
+/* by Divay kapoor */
+.content__album-info-maker {
+  font-weight: 600;
+}
