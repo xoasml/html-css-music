@@ -1,0 +1,21 @@
+.player-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+.player-button__play-btn {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.icon-color-change {
+  color: rgba(0, 0, 0, 0.5);
+}

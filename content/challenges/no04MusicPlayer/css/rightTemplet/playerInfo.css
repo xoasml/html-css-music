@@ -1,0 +1,14 @@
+.player-info {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.palyer__music-img {
+  width: 196px;
+  height: 196px;
+  margin-bottom: 48px;
+  border-radius: 20px;
+}

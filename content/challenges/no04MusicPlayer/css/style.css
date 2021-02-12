@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&display=swap");
+
+@import "reset.css";
+
+/* left Templet */
+@import "leftTemplet/artists.css";
+@import "leftTemplet/otherButtons.css";
+@import "leftTemplet/musicList.css";
+@import "leftTemplet/miniController.css";
+
+/* right Templet*/
+@import "rightTemplet/playerInfo.css";
+@import "rightTemplet/playerButton.css";
+@import "rightTemplet/range.css";
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #f2f2f5;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main-frame {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-frame {
+  background-color: white;
+  width: 270px;
+  height: 585px;
+  margin: 80px;
+  border-radius: 25px;
+}
+
+.top-component {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.shadow-effect {
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+}

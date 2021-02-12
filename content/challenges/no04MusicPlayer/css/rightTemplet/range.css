@@ -1,0 +1,60 @@
+.range-component {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.range-time {
+  width: 215px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.range-time__in {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.range-range {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+.range-range__all {
+  width: 220px;
+}
+
+.range-range__in {
+  width: 220px;
+  height: 3px;
+  border-radius: 90px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+}
+
+.range-range__out {
+  position: absolute;
+  width: 170px;
+  height: 3px;
+  border-radius: 90px;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.range-range__circle {
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  border-radius: 50%;
+  top: -3px;
+  right: 42px;
+}

@@ -1,0 +1,40 @@
+.mini-controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-controller__frame {
+  height: 55px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.mini-controller__info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mini-controller__info-artist-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.mini-controller__button {
+  display: flex;
+  align-items: center;
+}
+
+.middle-icon {
+  margin: 0px 25px;
+}

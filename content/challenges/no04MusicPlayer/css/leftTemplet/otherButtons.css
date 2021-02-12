@@ -1,0 +1,25 @@
+.other-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.other-buttons div {
+  border-radius: 25px;
+  width: 90px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.other-button__shuffle-button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-right: 15px;
+}
+
+.other-button__like-button {
+  color: rgba(0, 0, 0, 0.8);
+}
