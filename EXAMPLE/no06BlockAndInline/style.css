@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.div-member {
+  background: yellowgreen;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.span-member {
+  background: tomato;
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.solo-span {
+  background: red;
+  width: 120px;
+  height: 80px;
+  display: block;
+}
+
+.solo-div {
+  background: red;
+  width: 120px;
+  height: 80px;
+  display: inline;
+}
