@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>HTML Multimedia</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <select name="fruits">
+        <optgroup label="내가 좋아하는 과일">
+            <option value="Apple" label="Apple">
+            <option>Orange</option>
+            <option>Banana</option>
+        </optgroup>
+
+        <optgroup label="내가 싫어하는 과일">
+            <option selected>Mango</option>
+            <option>Finepple</option>
+        </optgroup>
+    </select>
+
+    <br>
+
+    <input type="text" list="fruits-data">
+
+    <datalist id="fruits-data">
+        <option>apple</option>
+        <option>orange</option>
+        <option>banana</option>
+        <option>mango</option>
+        <option>fineapple</option>
+    </datalist>
+
+
+
 </body>
+
 </html>

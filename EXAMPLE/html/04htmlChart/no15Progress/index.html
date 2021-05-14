@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <progress value="70" max="100">70%</progress>
+    <progress value="0.7">70%</progress>
+
+    <br>
+
+    <progress value="0" max="100"></progress>
+
+    <script>
+        const progress = document.querySelector('progress');
+        const interval = setInterval(function () {
+            progress.value += 10;
+            if(progress.value >= 100) clearInterval(interval);
+        }, 1000)
+    </script>
 </body>
 </html>
