@@ -1,0 +1,15 @@
+/* 일치선택자 : 태그가 span이면서 클래스가 orange인 태그 */
+span.orange {
+    color : red;
+}
+
+/*자식(직속) 선택자 : ul태그 '>' 자식 orange클래스*/
+ul > .orange{
+    color: red;
+    
+}
+
+/* 후손(하위모든 태그) 선택자 : div 태그 " " 띄어쓰기 .orange 클래스 */
+div .orange {
+    color: red;
+}
