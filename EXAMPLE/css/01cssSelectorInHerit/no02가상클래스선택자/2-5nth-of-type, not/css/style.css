@@ -1,0 +1,19 @@
+.fruits {
+    font-size: 40px;
+}
+
+.fruits p:nth-of-type(1){
+    color: red;
+}
+
+ul {
+    font-size: 40px;
+}
+
+.fruits-list .red:nth-of-type(1){
+    color: red;
+}
+
+.fruits-not li:not(.strawberry) {
+    color:royalblue;
+}
