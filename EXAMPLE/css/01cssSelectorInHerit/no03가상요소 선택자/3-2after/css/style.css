@@ -1,0 +1,10 @@
+/*  AFTER E 요소 내부의 뒤에, 내용(content)을 삽입*/
+
+ul {
+    font-size: 40px;
+}
+
+ul li::after {
+    content: url(https://heropy.blog/css/images/vendor_icons/aws.png);
+    width: 30px;
+}

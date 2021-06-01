@@ -1,0 +1,11 @@
+/*BEFORE : E 요소 내부의 앞에, 내용(content)을 삽입*/
+ul {
+    font-size: 40px;
+}
+
+ul li::before {
+    content: "숫자";
+    font-weight: bold;
+    color: red;
+    margin-right: 20px;
+}
