@@ -1,0 +1,22 @@
+html {
+    font-size: 10px;
+}
+
+body * {
+    border: 2px solid;
+}
+
+.container {
+    width: 60em;
+    font-size: 15px;
+}
+
+.parent {
+    width: 30em;
+    font-size: 2em;
+}
+
+.child {
+    width: 15rem;
+    font-size: 2em;
+}

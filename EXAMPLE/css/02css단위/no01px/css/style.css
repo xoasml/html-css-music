@@ -1,0 +1,15 @@
+body * {
+    border: 2px solid;
+}
+
+.container {
+    width: 600px;
+}
+
+.parent {
+    width: 50%;
+}
+
+.child {
+    width: 50%;
+}
