@@ -1,0 +1,7 @@
+.fruits li:nth-child(2n) {
+    color:red;
+}
+
+.name li:nth-child(n+2){
+    color: royalblue
+}

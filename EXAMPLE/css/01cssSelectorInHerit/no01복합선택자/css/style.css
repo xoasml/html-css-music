@@ -1,0 +1,25 @@
+/* 일치선택자 : 태그가 span이면서 클래스가 orange인 태그 */
+span.orange {
+    color: red;
+}
+
+/*자식(직속) 선택자 : ul태그 안에 있는 자식 orange클래스 1댑스*/
+ul>.orange {
+    color: red;
+
+}
+
+/* 후손(하위모든 태그) 선택자 : div 태그 안에 속한 모든 .orange 자손 태그 무한 댑스*/
+div .orange {
+    color: red;
+}
+
+/* 인접 형제 선택자 : .orange 클래스 다음에 있는 하나의 li 형제 태그*/
+.orange+li {
+    color: red;
+}
+
+/* 일반 형제 선택자 : .orange 클래스 다음에 있는 모든 li 형제 태그 */
+.orange ~ li {
+    color: red;
+}

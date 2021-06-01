@@ -1,0 +1,7 @@
+.fruits li:first-child {
+    color:red;
+}
+
+.fruits li:last-child {
+    color: red;
+}
