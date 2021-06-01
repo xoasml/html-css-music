@@ -1,0 +1,15 @@
+/* ATTR 속성 attr을 포함한 요소 선택*/
+.disabled {
+    opacity: 0.2; /*20%*/
+}
+
+[disabled] {
+    opacity: 0.2;
+    color: red;
+}
+
+/* attr=balue : 속성 attr을 포함하며 속성 값이 value인 요소 선택*/
+[value="1234"] {
+    opacity: 0.5;
+    color: greenyellow;
+}

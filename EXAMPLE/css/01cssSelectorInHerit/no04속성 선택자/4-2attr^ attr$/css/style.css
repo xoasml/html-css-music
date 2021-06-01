@@ -1,0 +1,15 @@
+/* ATTR^=VALUE 속성 attr을 포함하며 속성 값이 vlaue로 시작하는 요소 선택*/
+[class^="btn-"] {
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* ATTR$=VALUE 속성 attr을 포함하며 속성 값이 vlaue로 끝나는 요소 선택*/
+
+[class$="success"] {
+    color:green;
+}
+
+[class$="danger"] {
+    color: red;
+}
